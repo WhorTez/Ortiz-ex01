@@ -1,3 +1,8 @@
+/*
+ * UCF COP3330 Fall 2021 Assignment 1 Solution
+ * Copyright 2021 Duane_Ortiz
+ */
+
 package exercise01;
 
 import java.util.Scanner;
@@ -11,8 +16,6 @@ public class solution01 {
             System.out.println("Enter your name: ");
             Scanner input = new Scanner(System.in);
             String name = input.nextLine();
-
             System.out.println("Hello," + name + " hope you have a great day.");
-
         }
     }
